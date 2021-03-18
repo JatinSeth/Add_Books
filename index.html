@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id=main>
+        <h1>ADD BOOKS</h1>
+        <form class=form>
+
+            <div class=cover>
+                <label for="bname">Book Name</label>
+                <input type="text" id=bname class=des placeholder="Enter Book Name">
+            </div>
+            <div class=cover>
+                <label for="author">Author</label>
+                <input type="text" id=author class=des placeholder="Enter Author's Name">
+            </div>
+            <div class=cover>
+                <label for="price">Price</label>
+                <input type="text" id=price class=des placeholder="Enter Price">
+            </div>
+            <div class=cover>
+                <input type="submit" id=submit class=des>
+            </div>
+        </form>
+        <table class=tab>
+          <thead>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>delete</th>
+          </thead>
+          <tbody></tbody>
+        </table>
+    </div>
+    <script src="./jscript.js"></script>
+</body>
+
+</html>
