@@ -46,7 +46,7 @@ margin-top:15px;;
 
  }
  a.cross{
-    background-image:url('/del.png');
+    background-image:url('del.png');
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
