@@ -46,11 +46,14 @@ margin-top:15px;;
 
  }
  a.cross{
-    background-image:url('del.png');
+    background-image:url('./del.png');
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
     padding-right:10px;
+ }
+ #submit{
+     outline-style: none;
  }
  td{
      border-bottom: 0.5px solid rgba(128, 128, 128, 0.308);
